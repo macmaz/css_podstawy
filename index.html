@@ -1,16 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Style CSS</title>
-   <link rel="stylesheet" href="css/style.css" type="text/css">
-   <link href="https://fonts.googleapis.com/css?family=Roboto:100" type="text/css" rel="stylesheet" >
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" type="text/css" rel="stylesheet">
 </head>
+
 <body>
-   
+
     <!-- Selektor znacznika -->
-    
+
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam illum asperiores quia quas, laborum enim distinctio impedit temporibus quae dolorum?</p>
-    
+    <br/>
+
+    <p id="paragraf">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, libero temporibus officia. Provident soluta, praesentium, voluptatibus numquam quidem nam nostrum.
+    </p>
+
+    <p class="klasa-paragrafu">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsam, fugit sit molestias atque eum nemo officiis magnam obcaecati necessitatibus, commodi quisquam harum quas praesentium perspiciatis architecto mollitia! Obcaecati, repudiandae!
+    </p>
+
+    <!-- łączenie selektorów -->
+
+    <a href="">Link</a>
+    <br/>
+    <span>Lorem ipsum.</span>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, libero!</div>
+
+
+    <!--    selektor potomny-->
+    <ul>
+        <li><a href="">Link 1</a></li>
+        <li><a href="">Link 2</a></li>
+        <li><a href="">Link 3</a></li>
+    </ul>
+
+    <!-- selektor elementów potownmych-->
+    <div>
+        <ul>
+            <li><a href="">Link 1</a></li>
+            <li><a href="">Link 2</a></li>
+            <li><a href="">Link 3</a></li>
+        </ul>
+    </div>
+
+    <!--   selektor bliskiego rodzieństwa-->
+
+    <header>
+        <h2>1</h2>
+        <h3>2</h3>
+        <h3>3</h3>
+
+    </header>
+
+    <!--   selektor rodzieństwa -->
+
+    <header>
+        <h4>Paragrafy</h4>
+        <p>paragraf 1</p>
+        <p>paragraf 2</p>
+        <p>paragraf 3</p>
+        <p>parafraf 4</p>
+
+    </header>
+
+<!--selektor wykluczający-->
+
+<ul id="lista-agnieszki">
+    <li class="list-item">pole listy 1</li>
+    <li class="list-item">pole listy 2</li>
+    <li class="list-item">pole listy 3</li>
+    <li class="list-item last">pole listy 4</li>
+</ul>
+
+<!--selktor kolejnego elementu potownego-->
+<ul id="lista-karoliny">
+    <ol>element listy 1</ol>
+    <ol>element listy 2</ol>
+    <ol>element listy 3</ol>
+    <ol>element listy 4</ol>
+    <ol>element listy 5</ol>
+    <ol>element listy 6</ol>
+    <ol>element listy 7</ol>
+</ul>
+
 </body>
+
 </html>

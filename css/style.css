@@ -8,3 +8,53 @@ body {
 p {
     color: orange;
 }
+
+#paragraf {
+    
+    color: greenyellow;
+}
+
+.klasa-paragrafu {
+    
+    color: crimson;
+}
+
+a, span, div {
+    color: floralwhite;
+}
+
+/*selektor potomny*/
+
+li > a {
+    color:lightgreen;
+}
+
+div a {
+    
+    color: darkslateblue;
+} 
+h2+h3 {
+    color:brown;
+}
+
+h4 ~ p {
+    color: dodgerblue;
+    background-color: floralwhite;
+}
+
+
+#lista-agnieszki > li:not(.last) {
+    
+    color:silver;
+}
+
+ul#lista-karoliny>ol {
+    
+    color:black;
+    background-color: azure;
+    border-bottom: solid black;
+}
+
+ul#lista-karoliny > ol:nth-child(3){
+    color:red;
+}
